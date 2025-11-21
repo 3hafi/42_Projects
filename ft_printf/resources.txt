@@ -1,0 +1,7 @@
+https://wiki.sei.cmu.edu/confluence/display/c/EXP47-C.+Do+not+call+va_arg+with+an+argument+of+the+incorrect+type
+
+https://42-cursus.gitbook.io/guide/1-rank-01/get_next_line/open-and-read
+
+https://velog.io/@ljiwoo59/ftprintf
+
+https://learn.microsoft.com/en-us/cpp/c-runtime-library/reference/va-arg-va-copy-va-end-va-start?view=msvc-170
