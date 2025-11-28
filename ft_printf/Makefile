@@ -1,9 +1,20 @@
-#ifndef FT_PRINTF_H
-# define FT_PRINTF_H
+NAME = libftprintf.a
+CC = cc
+CFLAGS = -Wall -Wextra -Werror
+SRC = ft_printf.c print_list.c print_hex.c
+OBJ = $(SRC:.c=.o)
 
-# include 
-# include 
+all: $(NAME)
 
-int ft_printf(const char *format, ...);
+$(NAME): $(OBJ)
+	ar rcs $(NAME) $(OBJ)
 
-#endif
+clean:
+	rm -f $(OBJ)
+
+fclean: clean
+	rm -f $(NAME)
+
+re: fclean all
+
+.PHONY: all clean fclean re
